@@ -1,6 +1,6 @@
 # SuperWes Translation Patches
 
-English fan translation patches for **Be-Bop High School** and **Sailor Moon S: Kondo wa Puzzle de Oshioki yo!!** Both releases are **v1.0**.
+English fan translation patches for **Be-Bop High School** and **Sailor Moon S: Kondo wa Puzzle de Oshioki yo!!** The latest releases are **Be-Bop v1.0** and **Sailor Moon v1.1**.
 
 [Read the project story and see screenshots on SuperWes.com](https://superwes.com/be-bop-high-school-and-sailor-moon-english-translation-patches/).
 
@@ -9,9 +9,20 @@ English fan translation patches for **Be-Bop High School** and **Sailor Moon S: 
 | Game | System | Version | Download |
 | --- | --- | --- | --- |
 | Be-Bop High School | Famicom / NES | 1.0 | [Be-Bop-English-v1.0.zip](https://github.com/SuperWes/translation-patches/releases/download/v1.0/Be-Bop-English-v1.0.zip) |
-| Sailor Moon S: Kondo wa Puzzle de Oshioki yo!! | Super Famicom / SNES | 1.0 | [Sailor-Moon-Puzzle-English-v1.0.zip](https://github.com/SuperWes/translation-patches/releases/download/v1.0/Sailor-Moon-Puzzle-English-v1.0.zip) |
+| Sailor Moon S: Kondo wa Puzzle de Oshioki yo!! | Super Famicom / SNES | 1.1 | [Sailor-Moon-Puzzle-English-v1.1.zip](https://github.com/SuperWes/translation-patches/releases/download/sailor-moon-v1.1/Sailor-Moon-Puzzle-English-v1.1.zip) |
 
 Each ZIP contains a **BPS translation patch** and instructions. **Game ROMs are not included.**
+
+## New in Sailor Moon v1.1
+
+- White SuperWes startup screen with an explicit AI machine-translation disclosure. Release held input, then press and release any Player 1 button to continue; there is no timeout or button prompt.
+- Stage results read **STAGE 2 CLEAR**, with the number in the same font as the label. The in-game STAGE label appears above its number; win counters read **W:0**.
+- Consistent number fonts and spacing for stage counts, scores, timers, countdowns, and music/sound indices.
+- Password data, match rules, and other translation text are unchanged.
+
+Wes successfully playtested v1.1 and reported that it worked fine and seemed better. Reproducible build, BPS application, startup controls, numeric layout, and password checks also pass. See TESTING.txt in the ZIP for coverage and limitations.
+
+[Read the Sailor Moon v1.1 release notes](https://github.com/SuperWes/translation-patches/releases/tag/sailor-moon-v1.1). The [original v1.0 release](https://github.com/SuperWes/translation-patches/releases/tag/v1.0) remains available.
 
 ## What's translated
 
@@ -42,4 +53,4 @@ Place the extracted `.bps` file in a folder named `patch` on a USB drive or SD c
 
 Translations by **SuperWes**, created with assistance from **OpenAI Codex**. These are unofficial fan translations.
 
-This repository hosts the release ZIPs and their download guide. The [v1.0 release page](https://github.com/SuperWes/translation-patches/releases/tag/v1.0) provides the same downloads as GitHub release assets.
+This repository hosts patch-only release ZIPs and their download guide. The corresponding GitHub releases provide the same ZIPs as downloadable assets.
